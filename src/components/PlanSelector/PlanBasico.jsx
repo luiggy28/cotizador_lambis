@@ -1,38 +1,59 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { TravelerContext } from '../Contexts/TravelerContext';
-import { Card, CardContent, CardActions, Button, Typography } from '@mui/material';
+import { Card, CardContent, CardActions, Button, Typography, Box } from '@mui/material';
 import dayjs from 'dayjs';
 
 const PlanBasico = () => {
     const { travelerData, updateTravelerData } = useContext(TravelerContext);
     const [verDetalle, setVerDetalle] = useState(false);
-    const [precio, setPrecio] = useState("0.00");
+    const [precio, setPrecio] = useState("0");
+    const [precioSinDescuento, setPrecioSinDescuento] = useState("0");
+    const [descuentoAplicado, setDescuentoAplicado] = useState(false);
+    const [descuentoTexto, setDescuentoTexto] = useState("");
+    const [servicioUrgencia, setServicioUrgencia] = useState(false);
 
     useEffect(() => {
-        if (travelerData.fechaIda && travelerData.fechaRetorno) {
-            const fechaIda = dayjs(travelerData.fechaIda);
-            const fechaRetorno = dayjs(travelerData.fechaRetorno);
-            if (fechaIda.isValid() && fechaRetorno.isValid()) {
-                
-                const diasDeViaje = fechaRetorno.diff(fechaIda, 'day') + 1;
-                updateTravelerData({ ...travelerData, diasDeViaje });
-                const descuento = travelerData.pasajeros > 2 ? 0.1 : 0;
-                const precioPorDia = 2000; 
-                
-                const precioTotal = (precioPorDia * diasDeViaje * travelerData.pasajeros * (1 - descuento)).toFixed(2);
-                setPrecio(precioTotal);
+        if (travelerData.diasDeViaje && travelerData.pasajeros && travelerData.fechaIda) {
+            let descuento = 0;
+            if (travelerData.pasajeros === 2) {
+                descuento = 0.1;
+                setDescuentoTexto("(-10%)");
+            } else if (travelerData.pasajeros >= 3 && travelerData.pasajeros <= 4) {
+                descuento = 0.15;
+                setDescuentoTexto("(-15%)");
+            } else if (travelerData.pasajeros >= 5) {
+                descuento = 0.2;
+                setDescuentoTexto("(-20%)");
             } else {
-                console.error(`Fechas no válidas: fechaIda: ${travelerData.fechaIda}, fechaRetorno: ${travelerData.fechaRetorno}`);
+                setDescuentoTexto("");
             }
-        }
-    }, [travelerData.fechaIda, travelerData.fechaRetorno, travelerData.pasajeros, updateTravelerData]);
 
-    
+            const precioPorDia = 2000;
+            const fechaIda = dayjs(travelerData.fechaIda);
+            const hoy = dayjs();
+            const diasAntesDeViaje = fechaIda.diff(hoy, 'day');
+
+            let precioTotalSinDescuento = precioPorDia * travelerData.diasDeViaje * travelerData.pasajeros;
+            
+            if (diasAntesDeViaje >= 0 && diasAntesDeViaje <= 1) {
+                precioTotalSinDescuento *= 1.4; // Aumento del 40% para servicios de urgencia
+                setServicioUrgencia(true);
+            } else {
+                setServicioUrgencia(false);
+            }
+
+            const precioTotal = precioTotalSinDescuento * (1 - descuento);
+            
+            setPrecioSinDescuento(precioTotalSinDescuento.toLocaleString('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }));
+            setPrecio(precioTotal.toLocaleString('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }));
+            setDescuentoAplicado(descuento > 0);
+        }
+    }, [travelerData.diasDeViaje, travelerData.pasajeros, travelerData.fechaIda]);
+
     const seleccionarPlan = () => {
         console.log("Plan Básico seleccionado");
         updateTravelerData({ ...travelerData, plan: 'basico', precio });
     };
-
 
     const detalleBeneficios = verDetalle ? (
         <>
@@ -69,20 +90,29 @@ const PlanBasico = () => {
             <Typography>Asistencia médica por accidente: 30.000 USD / EUR</Typography>
             <Typography>Atención médica por enfermedad: 30.000 USD / EUR</Typography>
             <Typography>Atención por COVID -19: 30.000 USD / EUR</Typography>
-            {/* Más detalles resumidos aquí */}
         </>
     );
 
     return (
         <Card>
             <CardContent>
-                <Typography variant="h5">Plan Premium</Typography>
+                <Typography variant="h5">Plan Básico</Typography>
                 {detalleBeneficios}
+                {descuentoAplicado && (
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <Typography sx={{ textDecoration: 'line-through', color: 'gray' }}>
+                            {precioSinDescuento}
+                        </Typography>
+                        <Typography sx={{ color: 'gray' }}>
+                            {descuentoTexto}
+                        </Typography>
+                    </Box>
+                )}
+                
                 <Typography variant="h6">Precio: {precio}</Typography>
             </CardContent>
             <CardActions>
                 <Button size="small" onClick={() => setVerDetalle(!verDetalle)}>Ver detalle de este plan</Button>
-                {/* Usar la función seleccionarPlan aquí */}
                 <Button size="small" onClick={seleccionarPlan}>Seleccionar</Button>
             </CardActions>
         </Card>

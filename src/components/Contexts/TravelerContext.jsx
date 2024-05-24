@@ -1,11 +1,8 @@
 import React, { createContext, useState, useContext } from 'react';
 
-
 export const TravelerContext = createContext();
 
-
 export const useTraveler = () => useContext(TravelerContext);
-
 
 export const TravelerProvider = ({ children }) => {
     const [travelerData, setTravelerData] = useState({
@@ -22,6 +19,7 @@ export const TravelerProvider = ({ children }) => {
     });
 
     const updateTravelerData = (data) => {
+        console.log("Updating traveler data:", data);
         setTravelerData((prev) => ({ ...prev, ...data }));
     };
 
@@ -32,7 +30,6 @@ export const TravelerProvider = ({ children }) => {
         }));
     };
 
-    
     return (
         <TravelerContext.Provider value={{ travelerData, updateTravelerData, resetTravelersInfo }}>
             {children}

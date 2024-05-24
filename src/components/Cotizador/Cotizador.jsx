@@ -19,7 +19,7 @@ const Cotizador = () => {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [phoneCountry, setPhoneCountry] = useState(null);
     const [phoneError, setPhoneError] = useState('');
-    const [options, setOptions] = useState(data);  
+    const [options, setOptions] = useState(data);
     const [submitClicked, setSubmitClicked] = useState(false);
     const { travelerData, updateTravelerData } = useTraveler();
 
@@ -109,6 +109,26 @@ const Cotizador = () => {
         }
     };
 
+    const handleFechaIdaChange = (date) => {
+        setFechaIda(date);
+        if (fechaRetorno && date) {
+            const diasDeViaje = date && fechaRetorno ? fechaRetorno.diff(date, 'day') + 1 : 0;
+            if (diasDeViaje >= 1 && diasDeViaje <= 90) {
+                updateTravelerData({ fechaIda: date.format('YYYY-MM-DD'), diasDeViaje });
+            }
+        }
+    };
+
+    const handleFechaRetornoChange = (date) => {
+        setFechaRetorno(date);
+        if (fechaIda && date) {
+            const diasDeViaje = date && fechaIda ? date.diff(fechaIda, 'day') + 1 : 0;
+            if (diasDeViaje >= 1 && diasDeViaje <= 90) {
+                updateTravelerData({ fechaRetorno: date.format('YYYY-MM-DD'), diasDeViaje });
+            }
+        }
+    };
+
     const handleSubmit = (event) => {
         event.preventDefault();
         setSubmitClicked(true);
@@ -120,7 +140,7 @@ const Cotizador = () => {
         const isFormValid = origen && destino && formattedFechaIda && formattedFechaRetorno && isEmailValid && pasajeros && isPhoneNumberValid;
 
         if (isFormValid) {
-            const diasDeViaje = fechaRetorno.diff(fechaIda, 'days') + 1;  
+            const diasDeViaje = fechaRetorno.diff(fechaIda, 'days') + 1;
             const formData = {
                 origen,
                 destino,
@@ -131,7 +151,10 @@ const Cotizador = () => {
                 phoneNumber: `${phoneCountry.valor} ${phoneNumber}`,
                 diasDeViaje
             };
+
             console.log('Form Data:', formData);
+            updateTravelerData(formData);
+
             resetForm();
         } else {
             console.log('Some information is incorrect, please check the fields again.');
@@ -150,16 +173,6 @@ const Cotizador = () => {
         setPhoneError('');
         setEmailError('');
         setSubmitClicked(false);
-    };
-
-    const disabledDateIda = (date) => {
-        
-        return dayjs(date).isBefore(dayjs(), 'day');
-    };
-
-    const disabledDateRetorno = (date) => {
-        
-        return dayjs(date).isBefore(fechaIda, 'day');
     };
 
     return (
@@ -187,14 +200,14 @@ const Cotizador = () => {
                     <DatePicker
                         label="Fecha de Ida"
                         value={fechaIda}
-                        onChange={setFechaIda}
-                        shouldDisableDate={disabledDateIda}
+                        onChange={handleFechaIdaChange}
+                        shouldDisableDate={(date) => date.isBefore(dayjs(), 'day')}
                     />
                     <DatePicker
                         label="Fecha de Retorno"
                         value={fechaRetorno}
-                        onChange={setFechaRetorno}
-                        shouldDisableDate={disabledDateRetorno}
+                        onChange={handleFechaRetornoChange}
+                        shouldDisableDate={(date) => date.isBefore(fechaIda, 'day')}
                         disabled={!fechaIda}
                     />
                 </LocalizationProvider>
@@ -229,10 +242,10 @@ const Cotizador = () => {
                     <span>{pasajeros}</span>
                     <Button variant="outlined" onClick={handleIncrement}>+</Button>
                 </Box>
-                <Button 
-                    variant="contained" 
-                    color="primary" 
-                    onClick={handleSubmit}
+                <Button
+                    variant="contained"
+                    color="primary"
+                    type="submit"
                     disabled={submitClicked && (!origen || !destino || !fechaIda || !fechaRetorno || !email || !phoneNumber || !phoneCountry)}
                 >
                     Cotizar
@@ -243,3 +256,4 @@ const Cotizador = () => {
 };
 
 export default Cotizador;
+

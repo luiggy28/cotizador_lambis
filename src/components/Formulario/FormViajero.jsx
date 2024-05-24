@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { TextField, Box } from '@mui/material';
 import { DatePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import dayjs from 'dayjs';
 
 const FormViajero = ({ viajero, setViajero }) => {
-    
     const handleChange = (prop) => (event) => {
-        setViajero({ ...viajero, [prop]: event.target.value });
+        setViajero({ ...viajero, [prop]: event.target.value.toUpperCase() });
     };
 
     const handleDateChange = (date) => {
-        setViajero({ ...viajero, nacimiento: date });
+        const formattedDate = date ? date.format('DD-MM-YYYY') : null;
+        const age = date ? dayjs().diff(date, 'year') : null;
+        setViajero({ ...viajero, nacimiento: formattedDate, edadDelViajero: age });
     };
 
     return (
@@ -32,19 +34,10 @@ const FormViajero = ({ viajero, setViajero }) => {
             <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DatePicker
                     label="Fecha de Nacimiento"
-                    value={viajero.nacimiento}
-                    onChange={(newValue) => {
-                        setViajero({ ...viajero, nacimiento: newValue });
-                    }}
-                    components={{
-                        TextField: (props) => (
-                            <TextField
-                                {...props}
-                                fullWidth
-                                required
-                            />
-                        ),
-                    }}
+                    value={viajero.nacimiento ? dayjs(viajero.nacimiento, 'DD-MM-YYYY') : null}
+                    onChange={handleDateChange}
+                    format="DD-MM-YYYY"
+                    slotProps={{ textField: { fullWidth: true, required: true } }}
                 />
             </LocalizationProvider>
             <TextField
@@ -59,3 +52,4 @@ const FormViajero = ({ viajero, setViajero }) => {
 };
 
 export default FormViajero;
+    
