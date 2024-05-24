@@ -1,0 +1,1162 @@
+[
+    {
+        "codigo": "US",
+        "valor": "+1",
+        "nombre": "Estados Unidos"
+    },
+    {
+        "codigo": "GB",
+        "valor": "+44",
+        "nombre": "Reino Unido"
+    },
+    {
+        "codigo": "AF",
+        "valor": "+93",
+        "nombre": "Afganistán"
+    },
+    {
+        "codigo": "AL",
+        "valor": "+355",
+        "nombre": "Albania"
+    },
+    {
+        "codigo": "DZ",
+        "valor": "+213",
+        "nombre": "Argelia"
+    },
+    {
+        "codigo": "AS",
+        "valor": "+1684",
+        "nombre": "Samoa Americana"
+    },
+    {
+        "codigo": "AD",
+        "valor": "+376",
+        "nombre": "Andorra"
+    },
+    {
+        "codigo": "AO",
+        "valor": "+244",
+        "nombre": "Angola"
+    },
+    {
+        "codigo": "AI",
+        "valor": "+1264",
+        "nombre": "Anguila"
+    },
+    {
+        "codigo": "AQ",
+        "valor": "+672",
+        "nombre": "Antártida"
+    },
+    {
+        "codigo": "AG",
+        "valor": "+1268",
+        "nombre": "Antigua y Barbuda"
+    },
+    {
+        "codigo": "AR",
+        "valor": "+54",
+        "nombre": "Argentina"
+    },
+    {
+        "codigo": "AM",
+        "valor": "+374",
+        "nombre": "Armenia"
+    },
+    {
+        "codigo": "AW",
+        "valor": "+297",
+        "nombre": "Aruba"
+    },
+    {
+        "codigo": "AU",
+        "valor": "+61",
+        "nombre": "Australia"
+    },
+    {
+        "codigo": "AT",
+        "valor": "+43",
+        "nombre": "Austria"
+    },
+    {
+        "codigo": "AZ",
+        "valor": "+994",
+        "nombre": "Azerbaiyán"
+    },
+    {
+        "codigo": "BS",
+        "valor": "+1242",
+        "nombre": "Bahamas"
+    },
+    {
+        "codigo": "BH",
+        "valor": "+973",
+        "nombre": "Baréin"
+    },
+    {
+        "codigo": "BD",
+        "valor": "+880",
+        "nombre": "Bangladesh"
+    },
+    {
+        "codigo": "BB",
+        "valor": "+1246",
+        "nombre": "Barbados"
+    },
+    {
+        "codigo": "BY",
+        "valor": "+375",
+        "nombre": "Bielorrusia"
+    },
+    {
+        "codigo": "BE",
+        "valor": "+32",
+        "nombre": "Bélgica"
+    },
+    {
+        "codigo": "BZ",
+        "valor": "+501",
+        "nombre": "Belice"
+    },
+    {
+        "codigo": "BJ",
+        "valor": "+229",
+        "nombre": "Benín"
+    },
+    {
+        "codigo": "BM",
+        "valor": "+1441",
+        "nombre": "Bermudas"
+    },
+    {
+        "codigo": "BT",
+        "valor": "+975",
+        "nombre": "Bután"
+    },
+    {
+        "codigo": "BO",
+        "valor": "+591",
+        "nombre": "Bolivia"
+    },
+    {
+        "codigo": "BA",
+        "valor": "+387",
+        "nombre": "Bosnia y Herzegovina"
+    },
+    {
+        "codigo": "BW",
+        "valor": "+267",
+        "nombre": "Botsuana"
+    },
+    {
+        "codigo": "BR",
+        "valor": "+55",
+        "nombre": "Brasil"
+    },
+    {
+        "codigo": "VG",
+        "valor": "+1284",
+        "nombre": "Islas Vírgenes Británicas"
+    },
+    {
+        "codigo": "BN",
+        "valor": "+673",
+        "nombre": "Brunéi"
+    },
+    {
+        "codigo": "BG",
+        "valor": "+359",
+        "nombre": "Bulgaria"
+    },
+    {
+        "codigo": "BF",
+        "valor": "+226",
+        "nombre": "Burkina Faso"
+    },
+    {
+        "codigo": "MM",
+        "valor": "+95",
+        "nombre": "Myanmar (Birmania)"
+    },
+    {
+        "codigo": "BI",
+        "valor": "+257",
+        "nombre": "Burundi"
+    },
+    {
+        "codigo": "KH",
+        "valor": "+855",
+        "nombre": "Camboya"
+    },
+    {
+        "codigo": "CM",
+        "valor": "+237",
+        "nombre": "Camerún"
+    },
+    {
+        "codigo": "CA",
+        "valor": "+1",
+        "nombre": "Canadá"
+    },
+    {
+        "codigo": "CV",
+        "valor": "+238",
+        "nombre": "Cabo Verde"
+    },
+    {
+        "codigo": "KY",
+        "valor": "+1345",
+        "nombre": "Islas Caimán"
+    },
+    {
+        "codigo": "CF",
+        "valor": "+236",
+        "nombre": "República Centroafricana"
+    },
+    {
+        "codigo": "TD",
+        "valor": "+235",
+        "nombre": "Chad"
+    },
+    {
+        "codigo": "CL",
+        "valor": "+56",
+        "nombre": "Chile"
+    },
+    {
+        "codigo": "CN",
+        "valor": "+86",
+        "nombre": "China"
+    },
+    {
+        "codigo": "CX",
+        "valor": "+61",
+        "nombre": "Isla de Navidad"
+    },
+    {
+        "codigo": "CC",
+        "valor": "+61",
+        "nombre": "Islas Cocos"
+    },
+    {
+        "codigo": "CO",
+        "valor": "+57",
+        "nombre": "Colombia"
+    },
+    {
+        "codigo": "KM",
+        "valor": "+269",
+        "nombre": "Comoras"
+    },
+    {
+        "codigo": "CK",
+        "valor": "+682",
+        "nombre": "Islas Cook"
+    },
+    {
+        "codigo": "CR",
+        "valor": "+506",
+        "nombre": "Costa Rica"
+    },
+    {
+        "codigo": "HR",
+        "valor": "+385",
+        "nombre": "Croacia"
+    },
+    {
+        "codigo": "CU",
+        "valor": "+53",
+        "nombre": "Cuba"
+    },
+    {
+        "codigo": "CY",
+        "valor": "+357",
+        "nombre": "Chipre"
+    },
+    {
+        "codigo": "CZ",
+        "valor": "+420",
+        "nombre": "República Checa"
+    },
+    {
+        "codigo": "CD",
+        "valor": "+243",
+        "nombre": "República Democrática del Congo"
+    },
+    {
+        "codigo": "DK",
+        "valor": "+45",
+        "nombre": "Dinamarca"
+    },
+    {
+        "codigo": "DJ",
+        "valor": "+253",
+        "nombre": "Yibuti"
+    },
+    {
+        "codigo": "DM",
+        "valor": "+1767",
+        "nombre": "Dominica"
+    },
+    {
+        "codigo": "DO",
+        "valor": "+1809",
+        "nombre": "República Dominicana"
+    },
+    {
+        "codigo": "EC",
+        "valor": "+593",
+        "nombre": "Ecuador"
+    },
+    {
+        "codigo": "EG",
+        "valor": "+20",
+        "nombre": "Egipto"
+    },
+    {
+        "codigo": "SV",
+        "valor": "+503",
+        "nombre": "El Salvador"
+    },
+    {
+        "codigo": "GQ",
+        "valor": "+240",
+        "nombre": "Guinea Ecuatorial"
+    },
+    {
+        "codigo": "ER",
+        "valor": "+291",
+        "nombre": "Eritrea"
+    },
+    {
+        "codigo": "EE",
+        "valor": "+372",
+        "nombre": "Estonia"
+    },
+    {
+        "codigo": "ET",
+        "valor": "+251",
+        "nombre": "Etiopía"
+    },
+    {
+        "codigo": "FK",
+        "valor": "+500",
+        "nombre": "Islas Malvinas"
+    },
+    {
+        "codigo": "FO",
+        "valor": "+298",
+        "nombre": "Islas Feroe"
+    },
+    {
+        "codigo": "FJ",
+        "valor": "+679",
+        "nombre": "Fiyi"
+    },
+    {
+        "codigo": "FI",
+        "valor": "+358",
+        "nombre": "Finlandia"
+    },
+    {
+        "codigo": "FR",
+        "valor": "+33",
+        "nombre": "Francia"
+    },
+    {
+        "codigo": "PF",
+        "valor": "+689",
+        "nombre": "Polinesia Francesa"
+    },
+    {
+        "codigo": "GA",
+        "valor": "+241",
+        "nombre": "Gabón"
+    },
+    {
+        "codigo": "GM",
+        "valor": "+220",
+        "nombre": "Gambia"
+    },
+    {
+        "codigo": "U0",
+        "valor": "+970",
+        "nombre": "Franja de Gaza"
+    },
+    {
+        "codigo": "GE",
+        "valor": "+995",
+        "nombre": "Georgia"
+    },
+    {
+        "codigo": "DE",
+        "valor": "+49",
+        "nombre": "Alemania"
+    },
+    {
+        "codigo": "GH",
+        "valor": "+233",
+        "nombre": "Ghana"
+    },
+    {
+        "codigo": "GI",
+        "valor": "+350",
+        "nombre": "Gibraltar"
+    },
+    {
+        "codigo": "GR",
+        "valor": "+30",
+        "nombre": "Grecia"
+    },
+    {
+        "codigo": "GL",
+        "valor": "+299",
+        "nombre": "Groenlandia"
+    },
+    {
+        "codigo": "GD",
+        "valor": "+1473",
+        "nombre": "Granada"
+    },
+    {
+        "codigo": "GU",
+        "valor": "+1671",
+        "nombre": "Guam"
+    },
+    {
+        "codigo": "GT",
+        "valor": "+502",
+        "nombre": "Guatemala"
+    },
+    {
+        "codigo": "GN",
+        "valor": "+224",
+        "nombre": "Guinea"
+    },
+    {
+        "codigo": "GW",
+        "valor": "+245",
+        "nombre": "Guinea-Bisáu"
+    },
+    {
+        "codigo": "GY",
+        "valor": "+592",
+        "nombre": "Guyana"
+    },
+    {
+        "codigo": "HT",
+        "valor": "+509",
+        "nombre": "Haití"
+    },
+    {
+        "codigo": "VA",
+        "valor": "+39",
+        "nombre": "Ciudad del Vaticano"
+    },
+    {
+        "codigo": "HN",
+        "valor": "+504",
+        "nombre": "Honduras"
+    },
+    {
+        "codigo": "HK",
+        "valor": "+852",
+        "nombre": "Hong Kong"
+    },
+    {
+        "codigo": "HU",
+        "valor": "+36",
+        "nombre": "Hungría"
+    },
+    {
+        "codigo": "IS",
+        "valor": "+354",
+        "nombre": "Islandia"
+    },
+    {
+        "codigo": "IN",
+        "valor": "+91",
+        "nombre": "India"
+    },
+    {
+        "codigo": "ID",
+        "valor": "+62",
+        "nombre": "Indonesia"
+    },
+    {
+        "codigo": "IR",
+        "valor": "+98",
+        "nombre": "Irán"
+    },
+    {
+        "codigo": "IQ",
+        "valor": "+964",
+        "nombre": "Irak"
+    },
+    {
+        "codigo": "IE",
+        "valor": "+353",
+        "nombre": "Irlanda"
+    },
+    {
+        "codigo": "IM",
+        "valor": "+44",
+        "nombre": "Isla de Man"
+    },
+    {
+        "codigo": "IL",
+        "valor": "+972",
+        "nombre": "Israel"
+    },
+    {
+        "codigo": "IT",
+        "valor": "+39",
+        "nombre": "Italia"
+    },
+    {
+        "codigo": "CI",
+        "valor": "+225",
+        "nombre": "Costa de Marfil"
+    },
+    {
+        "codigo": "JM",
+        "valor": "+1876",
+        "nombre": "Jamaica"
+    },
+    {
+        "codigo": "JP",
+        "valor": "+81",
+        "nombre": "Japón"
+    },
+    {
+        "codigo": "JO",
+        "valor": "+962",
+        "nombre": "Jordania"
+    },
+    {
+        "codigo": "KZ",
+        "valor": "+7",
+        "nombre": "Kazajistán"
+    },
+    {
+        "codigo": "KE",
+        "valor": "+254",
+        "nombre": "Kenia"
+    },
+    {
+        "codigo": "KI",
+        "valor": "+686",
+        "nombre": "Kiribati"
+    },
+    {
+        "codigo": "U1",
+        "valor": "+381",
+        "nombre": "Kosovo"
+    },
+    {
+        "codigo": "KW",
+        "valor": "+965",
+        "nombre": "Kuwait"
+    },
+    {
+        "codigo": "KG",
+        "valor": "+996",
+        "nombre": "Kirguistán"
+    },
+    {
+        "codigo": "LA",
+        "valor": "+856",
+        "nombre": "Laos"
+    },
+    {
+        "codigo": "LV",
+        "valor": "+371",
+        "nombre": "Letonia"
+    },
+    {
+        "codigo": "LB",
+        "valor": "+961",
+        "nombre": "Líbano"
+    },
+    {
+        "codigo": "LS",
+        "valor": "+266",
+        "nombre": "Lesoto"
+    },
+    {
+        "codigo": "LR",
+        "valor": "+231",
+        "nombre": "Liberia"
+    },
+    {
+        "codigo": "LY",
+        "valor": "+218",
+        "nombre": "Libia"
+    },
+    {
+        "codigo": "LI",
+        "valor": "+423",
+        "nombre": "Liechtenstein"
+    },
+    {
+        "codigo": "LT",
+        "valor": "+370",
+        "nombre": "Lituania"
+    },
+    {
+        "codigo": "LU",
+        "valor": "+352",
+        "nombre": "Luxemburgo"
+    },
+    {
+        "codigo": "MO",
+        "valor": "+853",
+        "nombre": "Macao"
+    },
+    {
+        "codigo": "MK",
+        "valor": "+389",
+        "nombre": "Macedonia del Norte"
+    },
+    {
+        "codigo": "MG",
+        "valor": "+261",
+        "nombre": "Madagascar"
+    },
+    {
+        "codigo": "MW",
+        "valor": "+265",
+        "nombre": "Malaui"
+    },
+    {
+        "codigo": "MY",
+        "valor": "+60",
+        "nombre": "Malasia"
+    },
+    {
+        "codigo": "MV",
+        "valor": "+960",
+        "nombre": "Maldivas"
+    },
+    {
+        "codigo": "ML",
+        "valor": "+223",
+        "nombre": "Mali"
+    },
+    {
+        "codigo": "MT",
+        "valor": "+356",
+        "nombre": "Malta"
+    },
+    {
+        "codigo": "MH",
+        "valor": "+692",
+        "nombre": "Islas Marshall"
+    },
+    {
+        "codigo": "MR",
+        "valor": "+222",
+        "nombre": "Mauritania"
+    },
+    {
+        "codigo": "MU",
+        "valor": "+230",
+        "nombre": "Mauricio"
+    },
+    {
+        "codigo": "YT",
+        "valor": "+262",
+        "nombre": "Mayotte"
+    },
+    {
+        "codigo": "MX",
+        "valor": "+52",
+        "nombre": "México"
+    },
+    {
+        "codigo": "FM",
+        "valor": "+691",
+        "nombre": "Micronesia"
+    },
+    {
+        "codigo": "MD",
+        "valor": "+373",
+        "nombre": "Moldavia"
+    },
+    {
+        "codigo": "MC",
+        "valor": "+377",
+        "nombre": "Mónaco"
+    },
+    {
+        "codigo": "MN",
+        "valor": "+976",
+        "nombre": "Mongolia"
+    },
+    {
+        "codigo": "ME",
+        "valor": "+382",
+        "nombre": "Montenegro"
+    },
+    {
+        "codigo": "MS",
+        "valor": "+1664",
+        "nombre": "Montserrat"
+    },
+    {
+        "codigo": "MA",
+        "valor": "+212",
+        "nombre": "Marruecos"
+    },
+    {
+        "codigo": "MZ",
+        "valor": "+258",
+        "nombre": "Mozambique"
+    },
+    {
+        "codigo": "NA",
+        "valor": "+264",
+        "nombre": "Namibia"
+    },
+    {
+        "codigo": "NR",
+        "valor": "+674",
+        "nombre": "Nauru"
+    },
+    {
+        "codigo": "NP",
+        "valor": "+977",
+        "nombre": "Nepal"
+    },
+    {
+        "codigo": "NL",
+        "valor": "+31",
+        "nombre": "Países Bajos"
+    },
+    {
+        "codigo": "NC",
+        "valor": "+687",
+        "nombre": "Nueva Caledonia"
+    },
+    {
+        "codigo": "NZ",
+        "valor": "+64",
+        "nombre": "Nueva Zelanda"
+    },
+    {
+        "codigo": "NI",
+        "valor": "+505",
+        "nombre": "Nicaragua"
+    },
+    {
+        "codigo": "NE",
+        "valor": "+227",
+        "nombre": "Níger"
+    },
+    {
+        "codigo": "NG",
+        "valor": "+234",
+        "nombre": "Nigeria"
+    },
+    {
+        "codigo": "NU",
+        "valor": "+683",
+        "nombre": "Niue"
+    },
+    {
+        "codigo": "NF",
+        "valor": "+672",
+        "nombre": "Isla Norfolk"
+    },
+    {
+        "codigo": "KP",
+        "valor": "+850",
+        "nombre": "Corea del Norte"
+    },
+    {
+        "codigo": "MP",
+        "valor": "+1670",
+        "nombre": "Islas Marianas del Norte"
+    },
+    {
+        "codigo": "NO",
+        "valor": "+47",
+        "nombre": "Noruega"
+    },
+    {
+        "codigo": "OM",
+        "valor": "+968",
+        "nombre": "Omán"
+    },
+    {
+        "codigo": "PK",
+        "valor": "+92",
+        "nombre": "Pakistán"
+    },
+    {
+        "codigo": "PW",
+        "valor": "+680",
+        "nombre": "Palaos"
+    },
+    {
+        "codigo": "PS",
+        "valor": "+970",
+        "nombre": "Palestina"
+    },
+    {
+        "codigo": "PA",
+        "valor": "+507",
+        "nombre": "Panamá"
+    },
+    {
+        "codigo": "PG",
+        "valor": "+675",
+        "nombre": "Papúa Nueva Guinea"
+    },
+    {
+        "codigo": "PY",
+        "valor": "+595",
+        "nombre": "Paraguay"
+    },
+    {
+        "codigo": "PE",
+        "valor": "+51",
+        "nombre": "Perú"
+    },
+    {
+        "codigo": "PH",
+        "valor": "+63",
+        "nombre": "Filipinas"
+    },
+    {
+        "codigo": "PN",
+        "valor": "+64",
+        "nombre": "Islas Pitcairn"
+    },
+    {
+        "codigo": "PL",
+        "valor": "+48",
+        "nombre": "Polonia"
+    },
+    {
+        "codigo": "PT",
+        "valor": "+351",
+        "nombre": "Portugal"
+    },
+    {
+        "codigo": "PR",
+        "valor": "+1",
+        "nombre": "Puerto Rico"
+    },
+    {
+        "codigo": "QA",
+        "valor": "+974",
+        "nombre": "Catar"
+    },
+    {
+        "codigo": "CG",
+        "valor": "+242",
+        "nombre": "República del Congo"
+    },
+    {
+        "codigo": "RE",
+        "valor": "+262",
+        "nombre": "Reunión"
+    },
+    {
+        "codigo": "RO",
+        "valor": "+40",
+        "nombre": "Rumanía"
+    },
+    {
+        "codigo": "RU",
+        "valor": "+7",
+        "nombre": "Rusia"
+    },
+    {
+        "codigo": "RW",
+        "valor": "+250",
+        "nombre": "Ruanda"
+    },
+    {
+        "codigo": "SH",
+        "valor": "+290",
+        "nombre": "Santa Elena"
+    },
+    {
+        "codigo": "KN",
+        "valor": "+1869",
+        "nombre": "San Cristóbal y Nieves"
+    },
+    {
+        "codigo": "LC",
+        "valor": "+1758",
+        "nombre": "Santa Lucía"
+    },
+    {
+        "codigo": "PM",
+        "valor": "+508",
+        "nombre": "San Pedro y Miquelón"
+    },
+    {
+        "codigo": "VC",
+        "valor": "+1784",
+        "nombre": "San Vicente y las Granadinas"
+    },
+    {
+        "codigo": "WS",
+        "valor": "+685",
+        "nombre": "Samoa"
+    },
+    {
+        "codigo": "SM",
+        "valor": "+378",
+        "nombre": "San Marino"
+    },
+    {
+        "codigo": "ST",
+        "valor": "+239",
+        "nombre": "Santo Tomé y Príncipe"
+    },
+    {
+        "codigo": "SA",
+        "valor": "+966",
+        "nombre": "Arabia Saudita"
+    },
+    {
+        "codigo": "SN",
+        "valor": "+221",
+        "nombre": "Senegal"
+    },
+    {
+        "codigo": "RS",
+        "valor": "+381",
+        "nombre": "Serbia"
+    },
+    {
+        "codigo": "SC",
+        "valor": "+248",
+        "nombre": "Seychelles"
+    },
+    {
+        "codigo": "SL",
+        "valor": "+232",
+        "nombre": "Sierra Leona"
+    },
+    {
+        "codigo": "SG",
+        "valor": "+65",
+        "nombre": "Singapur"
+    },
+    {
+        "codigo": "SX",
+        "valor": "+1721",
+        "nombre": "Sint Maarten"
+    },
+    {
+        "codigo": "SK",
+        "valor": "+421",
+        "nombre": "Eslovaquia"
+    },
+    {
+        "codigo": "SI",
+        "valor": "+386",
+        "nombre": "Eslovenia"
+    },
+    {
+        "codigo": "SB",
+        "valor": "+677",
+        "nombre": "Islas Salomón"
+    },
+    {
+        "codigo": "SO",
+        "valor": "+252",
+        "nombre": "Somalia"
+    },
+    {
+        "codigo": "ZA",
+        "valor": "+27",
+        "nombre": "Sudáfrica"
+    },
+    {
+        "codigo": "KR",
+        "valor": "+82",
+        "nombre": "Corea del Sur"
+    },
+    {
+        "codigo": "SS",
+        "valor": "+211",
+        "nombre": "Sudán del Sur"
+    },
+    {
+        "codigo": "ES",
+        "valor": "+34",
+        "nombre": "España"
+    },
+    {
+        "codigo": "LK",
+        "valor": "+94",
+        "nombre": "Sri Lanka"
+    },
+    {
+        "codigo": "SD",
+        "valor": "+249",
+        "nombre": "Sudán"
+    },
+    {
+        "codigo": "SR",
+        "valor": "+597",
+        "nombre": "Surinam"
+    },
+    {
+        "codigo": "SJ",
+        "valor": "+47",
+        "nombre": "Svalbard y Jan Mayen"
+    },
+    {
+        "codigo": "SZ",
+        "valor": "+268",
+        "nombre": "Suazilandia"
+    },
+    {
+        "codigo": "SE",
+        "valor": "+46",
+        "nombre": "Suecia"
+    },
+    {
+        "codigo": "CH",
+        "valor": "+41",
+        "nombre": "Suiza"
+    },
+    {
+        "codigo": "SY",
+        "valor": "+963",
+        "nombre": "Siria"
+    },
+    {
+        "codigo": "TW",
+        "valor": "+886",
+        "nombre": "Taiwán"
+    },
+    {
+        "codigo": "TJ",
+        "valor": "+992",
+        "nombre": "Tayikistán"
+    },
+    {
+        "codigo": "TZ",
+        "valor": "+255",
+        "nombre": "Tanzania"
+    },
+    {
+        "codigo": "TH",
+        "valor": "+66",
+        "nombre": "Tailandia"
+    },
+    {
+        "codigo": "TG",
+        "valor": "+228",
+        "nombre": "Togo"
+    },
+    {
+        "codigo": "TK",
+        "valor": "+690",
+        "nombre": "Tokelau"
+    },
+    {
+        "codigo": "TO",
+        "valor": "+676",
+        "nombre": "Tonga"
+    },
+    {
+        "codigo": "TT",
+        "valor": "+1868",
+        "nombre": "Trinidad y Tobago"
+    },
+    {
+        "codigo": "TN",
+        "valor": "+216",
+        "nombre": "Túnez"
+    },
+    {
+        "codigo": "TR",
+        "valor": "+90",
+        "nombre": "Turquía"
+    },
+    {
+        "codigo": "TM",
+        "valor": "+993",
+        "nombre": "Turkmenistán"
+    },
+    {
+        "codigo": "TC",
+        "valor": "+1649",
+        "nombre": "Islas Turcas y Caicos"
+    },
+    {
+        "codigo": "TV",
+        "valor": "+688",
+        "nombre": "Tuvalu"
+    },
+    {
+        "codigo": "UG",
+        "valor": "+256",
+        "nombre": "Uganda"
+    },
+    {
+        "codigo": "UA",
+        "valor": "+380",
+        "nombre": "Ucrania"
+    },
+    {
+        "codigo": "AE",
+        "valor": "+971",
+        "nombre": "Emiratos \u00c1rabes Unidos"
+    },
+    {
+        "codigo": "UY",
+        "valor": "+598",
+        "nombre": "Uruguay"
+    },
+    {
+        "codigo": "UZ",
+        "valor": "+998",
+        "nombre": "Uzbekistán"
+    },
+    {
+        "codigo": "VU",
+        "valor": "+678",
+        "nombre": "Vanuatu"
+    },
+    {
+        "codigo": "VE",
+        "valor": "+58",
+        "nombre": "Venezuela"
+    },
+    {
+        "codigo": "VN",
+        "valor": "+84",
+        "nombre": "Vietnam"
+    },
+    {
+        "codigo": "WF",
+        "valor": "+681",
+        "nombre": "Wallis y Futuna"
+    },
+    {
+        "codigo": "YE",
+        "valor": "+967",
+        "nombre": "Yemen"
+    },
+    {
+        "codigo": "ZM",
+        "valor": "+260",
+        "nombre": "Zambia"
+    },
+    {
+        "codigo": "ZW",
+        "valor": "+263",
+        "nombre": "Zimbabe"
+    }
+]

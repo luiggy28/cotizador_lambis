@@ -1,0 +1,1122 @@
+[
+    {
+        "codigo": "DZ",
+        "pais": "Angola",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "AO",
+        "pais": "Argelia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "BJ",
+        "pais": "Benin",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "BW",
+        "pais": "Botswana",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "BF",
+        "pais": "Burkina Faso",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "BI",
+        "pais": "Burundi",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "CV",
+        "pais": "Cabo Verde",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "CM",
+        "pais": "Camerún",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "CF",
+        "pais": "Chad",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "TD",
+        "pais": "Comores",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "KM",
+        "pais": "Congo",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "CG",
+        "pais": "Congo, República Democrática del",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "CD",
+        "pais": "Costa de Marfíl",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "CI",
+        "pais": "Djibouti",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "DJ",
+        "pais": "Egipto",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "EG",
+        "pais": "Eritrea",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "GQ",
+        "pais": "Etiopía",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "ER",
+        "pais": "Gabón",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SZ",
+        "pais": "Gambia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "ET",
+        "pais": "Ghana",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "GA",
+        "pais": "Guinea",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "GM",
+        "pais": "Guinea Ecuatorial",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "GH",
+        "pais": "Guinea-Bissau",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "GN",
+        "pais": "Kenia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "GW",
+        "pais": "Lesotho",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "KE",
+        "pais": "Liberia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "LS",
+        "pais": "Libia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "LR",
+        "pais": "Madagascar",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "LY",
+        "pais": "Malawi",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "MG",
+        "pais": "Malí",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "MW",
+        "pais": "Marruecos",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "ML",
+        "pais": "Mauricio",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "MR",
+        "pais": "Mauritania",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "MU",
+        "pais": "Mozambique",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "MA",
+        "pais": "Namibia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "MZ",
+        "pais": "Níger",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "NA",
+        "pais": "Nigeria",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "NE",
+        "pais": "República Centroafricana",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "NG",
+        "pais": "República de Sudáfrica",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "RE",
+        "pais": "Reunión",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "RW",
+        "pais": "Ruanda",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SH",
+        "pais": "Sahara Occidental",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "ST",
+        "pais": "Santa Helena",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SN",
+        "pais": "Santo Tomé y Príncipe",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SC",
+        "pais": "Senegal",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SL",
+        "pais": "Seychelles",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SO",
+        "pais": "Sierra Leona",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "ZA",
+        "pais": "Somalia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SS",
+        "pais": "Suazilandia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "SD",
+        "pais": "Sudán",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "TZ",
+        "pais": "Tanzania",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "TG",
+        "pais": "Togo",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "TN",
+        "pais": "Túnez",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "UG",
+        "pais": "Uganda",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "EH",
+        "pais": "Zambia",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "ZM",
+        "pais": "Zimbabue",
+        "continente" : "Africa"
+    },
+    {
+        "codigo": "AI",
+        "pais": "Anguilla",
+        "continente" : "America"
+    },
+    {
+        "codigo": "AG",
+        "pais": "Antigua y Barbuda",
+        "continente" : "America"
+    },
+    {
+        "codigo": "AR",
+        "pais": "Argentina",
+        "continente" : "America"
+    },
+    {
+        "codigo": "AW",
+        "pais": "Aruba",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BS",
+        "pais": "Bahamas",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BB",
+        "pais": "Barbados",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BZ",
+        "pais": "Belice",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BM",
+        "pais": "Bermudas",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BO",
+        "pais": "Bolivia",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BR",
+        "pais": "Brasil",
+        "continente" : "America"
+    },
+    {
+        "codigo": "CA",
+        "pais": "Canadá",
+        "continente" : "America"
+    },
+    {
+        "codigo": "KY",
+        "pais": "Chile",
+        "continente" : "America"
+    },
+    {
+        "codigo": "CL",
+        "pais": "Colombia",
+        "continente" : "America"
+    },
+    {
+        "codigo": "CO",
+        "pais": "Costa Rica",
+        "continente" : "America"
+    },
+    {
+        "codigo": "CR",
+        "pais": "Cuba",
+        "continente" : "America"
+    },
+    {
+        "codigo": "CU",
+        "pais": "Dominica",
+        "continente" : "America"
+    },
+    {
+        "codigo": "CW",
+        "pais": "Ecuador",
+        "continente" : "America"
+    },
+    {
+        "codigo": "DM",
+        "pais": "El Salvador",
+        "continente" : "America"
+    },
+    {
+        "codigo": "DO",
+        "pais": "Estados Unidos",
+        "continente" : "America"
+    },
+    {
+        "codigo": "EC",
+        "pais": "Granada",
+        "continente" : "America"
+    },
+    {
+        "codigo": "SV",
+        "pais": "Groenlandia",
+        "continente" : "America"
+    },
+    {
+        "codigo": "FK",
+        "pais": "Guadalupe",
+        "continente" : "America"
+    },
+    {
+        "codigo": "GF",
+        "pais": "Guatemala",
+        "continente" : "America"
+    },
+    {
+        "codigo": "GL",
+        "pais": "Guayana",
+        "continente" : "America"
+    },
+    {
+        "codigo": "GD",
+        "pais": "Guayana Francesa",
+        "continente" : "America"
+    },
+    {
+        "codigo": "GP",
+        "pais": "Haití",
+        "continente" : "America"
+    },
+    {
+        "codigo": "GT",
+        "pais": "Honduras",
+        "continente" : "America"
+    },
+    {
+        "codigo": "GY",
+        "pais": "Islas Caimán",
+        "continente" : "America"
+    },
+    {
+        "codigo": "HT",
+        "pais": "Islas Malvinas",
+        "continente" : "America"
+    },
+    {
+        "codigo": "HN",
+        "pais": "Islas Turks y Caicos",
+        "continente" : "America"
+    },
+    {
+        "codigo": "JM",
+        "pais": "Islas Vírgenes (EEUU)",
+        "continente" : "America"
+    },
+    {
+        "codigo": "MQ",
+        "pais": "Islas Vírgenes (Reino Unido)",
+        "continente" : "America"
+    },
+    {
+        "codigo": "MX",
+        "pais": "Jamaica",
+        "continente" : "America"
+    },
+    {
+        "codigo": "MS",
+        "pais": "Martinica",
+        "continente" : "America"
+    },
+    {
+        "codigo": "NI",
+        "pais": "México",
+        "continente" : "America"
+    },
+    {
+        "codigo": "PA",
+        "pais": "Montserrat",
+        "continente" : "America"
+    },
+    {
+        "codigo": "PY",
+        "pais": "Nicaragua",
+        "continente" : "America"
+    },
+    {
+        "codigo": "PE",
+        "pais": "Panamá",
+        "continente" : "America"
+    },
+    {
+        "codigo": "PR",
+        "pais": "Paraguay",
+        "continente" : "America"
+    },
+    {
+        "codigo": "BL",
+        "pais": "Perú",
+        "continente" : "America"
+    },
+    {
+        "codigo": "KN",
+        "pais": "Puerto Rico",
+        "continente" : "America"
+    },
+    {
+        "codigo": "LC",
+        "pais": "República Dominicana",
+        "continente" : "America"
+    },
+    {
+        "codigo": "MF",
+        "pais": "Saint Kitts y Nevis",
+        "continente" : "America"
+    },
+    {
+        "codigo": "PM",
+        "pais": "San Vicente y Granadinas",
+        "continente" : "America"
+    },
+    {
+        "codigo": "VC",
+        "pais": "Santa Lucía",
+        "continente" : "America"
+    },
+    {
+        "codigo": "SX",
+        "pais": "St Pierre y Miquelon",
+        "continente" : "America"
+    },
+    {
+        "codigo": "SR",
+        "pais": "Surinam",
+        "continente" : "America"
+    },
+    {
+        "codigo": "TT",
+        "pais": "Trinidad y Tobago",
+        "continente" : "America"
+    },
+    {
+        "codigo": "TC",
+        "pais": "Uruguay",
+        "continente" : "America"
+    },
+    {
+        "codigo": "US",
+        "pais": "Venezuela",
+        "continente" : "America"
+    },
+    {
+        "codigo": "AF",
+        "pais": "Afganistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "AM",
+        "pais": "Arabia Saudí",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "AZ",
+        "pais": "Armenia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "BH",
+        "pais": "Azerbaiyán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "BD",
+        "pais": "Bahrein",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "BT",
+        "pais": "Bangladesh",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "BN",
+        "pais": "Birmania",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "KH",
+        "pais": "Brunei",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "CN",
+        "pais": "Bután",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "CY",
+        "pais": "Camboya",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "GE",
+        "pais": "China",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "IN",
+        "pais": "Chipre - Asia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "ID",
+        "pais": "Corea",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "IR",
+        "pais": "Corea del Norte",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "IQ",
+        "pais": "Emiratos Árabes Unidos",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "IL",
+        "pais": "Filipinas",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "JP",
+        "pais": "Georgia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "JO",
+        "pais": "India",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "KZ",
+        "pais": "Indonesia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "KP",
+        "pais": "Irak",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "KR",
+        "pais": "Irán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "KW",
+        "pais": "Israel",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "KG",
+        "pais": "Japón",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "LA",
+        "pais": "Jordania",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "LB",
+        "pais": "Kazajistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "MO",
+        "pais": "Kirguizistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "MY",
+        "pais": "Kuwait",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "MV",
+        "pais": "Laos",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "MN",
+        "pais": "Líbano",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "MM",
+        "pais": "Malasia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "NP",
+        "pais": "Maldivas",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "OM",
+        "pais": "Mongolia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "PK",
+        "pais": "Nepal",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "PS",
+        "pais": "Omán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "PH",
+        "pais": "Paquistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "QA",
+        "pais": "Qatar",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "SA",
+        "pais": "Singapur",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "SG",
+        "pais": "Siria",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "LK",
+        "pais": "Sri Lanka",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "SY",
+        "pais": "Tailandia",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "TW",
+        "pais": "Taiwán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "TJ",
+        "pais": "Tayikistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "TH",
+        "pais": "Turkmenistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "TL",
+        "pais": "Turquía",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "TR",
+        "pais": "Uzbekistán",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "TM",
+        "pais": "Vietnam",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "AE",
+        "pais": "Yemen",
+        "continente" : "Asia"
+    },
+    {
+        "codigo": "AL",
+        "pais": "Albania",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "AD",
+        "pais": "Alemania",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "AT",
+        "pais": "Andorra",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "BY",
+        "pais": "Austria",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "BE",
+        "pais": "Bélgica",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "BA",
+        "pais": "Bielorrusia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "BG",
+        "pais": "Bosnia y Herzegovina",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "HR",
+        "pais": "Bulgaria",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "CY",
+        "pais": "Chipre - Europa",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "CZ",
+        "pais": "Ciudad del Vaticano (Santa Sede)",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "DK",
+        "pais": "Croacia (Hrvatska)",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "EE",
+        "pais": "Dinamarca",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "FO",
+        "pais": "Eslovenia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "FI",
+        "pais": "España",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "FR",
+        "pais": "Estonia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "DE",
+        "pais": "Finlandia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "GI",
+        "pais": "Francia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "GR",
+        "pais": "Gibraltar",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "GG",
+        "pais": "Grecia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "VA",
+        "pais": "Hungría",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "HU",
+        "pais": "Irlanda",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "IS",
+        "pais": "Islandia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "IE",
+        "pais": "Islas Faroe",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "IM",
+        "pais": "Islas Svalbard y Jan Mayen",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "IT",
+        "pais": "Italia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "JE",
+        "pais": "Letonia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "LV",
+        "pais": "Liechtenstein",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "LI",
+        "pais": "Lituania",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "LT",
+        "pais": "Luxemburgo",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "LU",
+        "pais": "Macedonia, Ex-República Yugoslava de",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "MT",
+        "pais": "Malta",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "MD",
+        "pais": "Moldavia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "MC",
+        "pais": "Mónaco",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "ME",
+        "pais": "Noruega",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "NL",
+        "pais": "Países Bajos",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "MK",
+        "pais": "Polonia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "NO",
+        "pais": "Portugal",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "PL",
+        "pais": "República Checa",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "PT",
+        "pais": "República Eslovaca",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "RO",
+        "pais": "Rumania",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "RU",
+        "pais": "Rusia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "SM",
+        "pais": "San Marino",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "RS",
+        "pais": "Suecia",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "SK",
+        "pais": "Suiza",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "SI",
+        "pais": "Ucrania",
+        "continente" : "Europa"
+    },
+    {
+        "codigo": "AS",
+        "pais": "Australia",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "AU",
+        "pais": "Fiji",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "CK",
+        "pais": "Guam",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "FJ",
+        "pais": "Islas Cook",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "PF",
+        "pais": "Islas Marianas del Norte",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "GU",
+        "pais": "Islas Marshall",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "KI",
+        "pais": "Islas menores de Estados Unidos",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "MH",
+        "pais": "Islas Palau",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "FM",
+        "pais": "Islas Salomón",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "NR",
+        "pais": "Islas Tokelau",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "NC",
+        "pais": "Islas Wallis y Futuna",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "NZ",
+        "pais": "Kiribati",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "NU",
+        "pais": "Micronesia",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "NF",
+        "pais": "Nauru",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "MP",
+        "pais": "Niue",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "PW",
+        "pais": "Norfolk",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "PG",
+        "pais": "Nueva Caledonia",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "PN",
+        "pais": "Nueva Zelanda",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "WS",
+        "pais": "Papúa Nueva Guinea",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "SB",
+        "pais": "Pitcairn",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "TK",
+        "pais": "Polinesia Francesa",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "TO",
+        "pais": "Samoa",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "TV",
+        "pais": "Samoa Americana",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "UM",
+        "pais": "Tonga",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "VU",
+        "pais": "Tuvalu",
+        "continente" : "Oceania"
+    },
+    {
+        "codigo": "WF",
+        "pais": "Vanuatu",
+        "continente" : "Oceania"
+    }
+]
